@@ -8,7 +8,7 @@ using System.Text;
 
 namespace TestProject.Pages
 {
-    public class Inventory : Base
+    public class InventoryPage : Base
     {
 
         private By pgTitle = By.CssSelector(".title");
@@ -17,7 +17,7 @@ namespace TestProject.Pages
 
 
         private IElementServices _elementServices = new ElementHelpers();
-        public Inventory()
+        public InventoryPage()
         {
             _elementServices = _elementServices ?? new ElementHelpers();
         }
